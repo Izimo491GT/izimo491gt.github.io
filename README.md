@@ -1,1 +1,1 @@
-# tiktok-biogenerator
+# grappige-naamgenerator
