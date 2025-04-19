@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TikTok Bio Generator</title>
   <style>
     body {
       font-family: sans-serif;
       text-align: center;
-      padding: 50px;
+      padding: 0;
+      margin: 0;
       background: #f9f9f9;
+    }
+    .disclaimer {
+      background-color: #fffae6;
+      color: #333;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-bottom: 1px solid #ddd;
+    }
+    .container {
+      padding: 50px 20px;
     }
     button {
       padding: 15px 25px;
@@ -28,54 +39,60 @@
       margin-bottom: 25px;
     }
   </style>
+
+  <!-- Push Notification code -->
+  <script src="https://grookilteepsou.net/act/files/tag.min.js?z=9230657" data-cfasync="false" async></script>
 </head>
 <body>
 
-  <div class="ad-space">
-    <!-- Hier kunnen toekomstige banners of extra inhoud geplaatst worden -->
+  <!-- Disclaimer banner -->
+  <div class="disclaimer">
+    Let op: deze site maakt gebruik van advertenties om gratis diensten aan te bieden.
   </div>
 
-  <h1>TikTok Bio Generator</h1>
-  <p>Klik hieronder en ontvang direct een originele TikTok bio die niemand anders heeft!</p>
-  <button onclick="genereerBio()">Genereer Mijn Bio</button>
-  <div id="bio"></div>
+  <div class="container">
 
-  <script>
-    const bios = [
-      "Dreaming big, scrolling fast.",
-      "Dancing like nobody’s watching.",
-      "Creating chaos in 15 seconds.",
-      "Just vibes, no filter.",
-      "In bio we trust.",
-      "Your new addiction starts here.",
-      "Built for the ‘For You’ page.",
-      "Too glam to give a damn.",
-      "Bio under construction...",
-      "Serving looks & laughs."
-    ];
+    <!-- Popunder code -->
+    <script>
+      (function(s,u,z,p){
+        s.src=u;
+        s.setAttribute('data-zone', z);
+        p.appendChild(s);
+      })(document.createElement('script'),
+         'https://shebudriftaiter.net/tag.min.js',
+         9230614,
+         document.body || document.documentElement);
+    </script>
 
-    function genereerBio() {
-      const willekeurigeBio = bios[Math.floor(Math.random() * bios.length)];
-      document.getElementById("bio").innerText = willekeurigeBio;
-    }
-  </script>
+    <div class="ad-space">
+      <!-- Advertenties kunnen hier verschijnen -->
+    </div>
 
-  <!-- Monetag Popunder zonder anti-adblocker -->
-  <script>
-  (function(s,u,z,p){
-    s.src = u;
-    s.setAttribute('data-zone', z);
-    p.appendChild(s);
-  })(
-    document.createElement('script'),
-    'https://shebudriftaiter.net/tag.min.js',
-    9230614,
-    document.body || document.documentElement
-  );
-  </script>
+    <h1>TikTok Bio Generator</h1>
+    <p>Klik hieronder en ontvang direct een originele TikTok bio die niemand anders heeft!</p>
+    <button onclick="genereerBio()">Genereer Mijn Bio</button>
+    <div id="bio"></div>
 
-  <!-- Monetag Push Notifications zonder anti-adblocker -->
-  <script src="https://grookilteepsou.net/act/files/tag.min.js?z=9230657" data-cfasync="false" async></script>
+    <script>
+      const bios = [
+        "Dreaming big, scrolling fast.",
+        "Dancing like nobody’s watching.",
+        "Creating chaos in 15 seconds.",
+        "Just vibes, no filter.",
+        "In bio we trust.",
+        "Your new addiction starts here.",
+        "Built for the ‘For You’ page.",
+        "Too glam to give a damn.",
+        "Bio under construction...",
+        "Serving looks & laughs."
+      ];
 
+      function genereerBio() {
+        const willekeurigeBio = bios[Math.floor(Math.random() * bios.length)];
+        document.getElementById("bio").innerText = willekeurigeBio;
+      }
+    </script>
+
+  </div>
 </body>
 </html>
