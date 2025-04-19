@@ -37,6 +37,16 @@
       margin-top: 20px;
     }
   </style>
+  <!-- Monetag Push Notifications -->
+<script type="text/javascript">
+  (function(w, d) {
+      w._push = { zoneID: 141894 };
+      var s = d.createElement("script");
+      s.src = "//cdn.pushnotificationservice.com/script.js";
+      s.async = true;
+      d.head.appendChild(s);
+  })(window, document);
+</script>
 </head>
 <body>
   <h1>TikTok Bio Generator</h1>
@@ -63,5 +73,15 @@
       document.getElementById("bio").innerText = willekeurigeBio;
     }
   </script>
+  <!-- Monetag Popunder -->
+<script type="text/javascript">
+  (function(w, d) {
+    w._pop = {zoneId: 141894};
+    var s = d.createElement('script');
+    s.src = 'https://cdn.poptm.com/pop.js';
+    s.async = true;
+    d.body.appendChild(s);
+  })(window, document);
+</script>
 </body>
 </html>
