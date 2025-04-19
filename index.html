@@ -1,21 +1,9 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TikTok Bio Generator</title>
-
-  <!-- Advertentiescript (Push Notifications Monetag) -->
-  <script type="text/javascript">
-    (function(w, d) {
-        w._push = { zoneID: 141894 };
-        var s = d.createElement("script");
-        s.src = "//cdn.pushnotificationservice.com/script.js";
-        s.async = true;
-        d.head.appendChild(s);
-    })(window, document);
-  </script>
-
   <style>
     body {
       font-family: sans-serif;
@@ -36,19 +24,17 @@
       font-size: 20px;
       margin-top: 20px;
     }
+    .ad-space {
+      margin-bottom: 25px;
+    }
   </style>
-  <!-- Monetag Push Notifications -->
-<script type="text/javascript">
-  (function(w, d) {
-      w._push = { zoneID: 141894 };
-      var s = d.createElement("script");
-      s.src = "//cdn.pushnotificationservice.com/script.js";
-      s.async = true;
-      d.head.appendChild(s);
-  })(window, document);
-</script>
 </head>
 <body>
+
+  <div class="ad-space">
+    <!-- Hier kunnen toekomstige banners of extra inhoud geplaatst worden -->
+  </div>
+
   <h1>TikTok Bio Generator</h1>
   <p>Klik hieronder en ontvang direct een originele TikTok bio die niemand anders heeft!</p>
   <button onclick="genereerBio()">Genereer Mijn Bio</button>
@@ -73,15 +59,23 @@
       document.getElementById("bio").innerText = willekeurigeBio;
     }
   </script>
-  <!-- Monetag Popunder -->
-<script type="text/javascript">
-  (function(w, d) {
-    w._pop = {zoneId: 141894};
-    var s = d.createElement('script');
-    s.src = 'https://cdn.poptm.com/pop.js';
-    s.async = true;
-    d.body.appendChild(s);
-  })(window, document);
-</script>
+
+  <!-- Monetag Popunder zonder anti-adblocker -->
+  <script>
+  (function(s,u,z,p){
+    s.src = u;
+    s.setAttribute('data-zone', z);
+    p.appendChild(s);
+  })(
+    document.createElement('script'),
+    'https://shebudriftaiter.net/tag.min.js',
+    9230614,
+    document.body || document.documentElement
+  );
+  </script>
+
+  <!-- Monetag Push Notifications zonder anti-adblocker -->
+  <script src="https://grookilteepsou.net/act/files/tag.min.js?z=9230657" data-cfasync="false" async></script>
+
 </body>
 </html>
